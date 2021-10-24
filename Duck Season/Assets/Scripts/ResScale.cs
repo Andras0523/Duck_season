@@ -10,12 +10,9 @@ public class ResScale : MonoBehaviour
     {
         int magas = Screen.height;
         int szeles = Screen.width;
-        int magasb = (int)Math.Round(magas*0.7f);
-        int szelesb = (int)Math.Round(szeles * 0.7f);
-        Debug.Log(szelesb+"|"+ magasb);
-        
-
-        
+        int magasb = (int)Math.Round(magas*0.65f);
+        int szelesb = (int)Math.Round(szeles * 0.65f);
+        Debug.Log(szelesb+"|"+ magasb);              
         Screen.SetResolution(szelesb,magasb,true);
     }
 
