@@ -28,9 +28,9 @@ public class CameraController : MonoBehaviour
         {
             Yaxisb = 44.9999f;
         }
-        if (Yaxisb < -27f)
+        if (Yaxisb < -35f)
         {
-            Yaxisb = -26.9999f;
+            Yaxisb = -34.9999f;
         }
         if (Xaxisb < -80f)
         {

@@ -14,7 +14,9 @@ public class ResScale : MonoBehaviour
         int szelesb = (int)Math.Round(szeles * 0.65f);
         Debug.Log(szelesb+"|"+ magasb);              
         Screen.SetResolution(szelesb,magasb,true);
+        
     }
+
 
 
 }
