@@ -36,6 +36,7 @@ public class Spawner : MonoBehaviour
         if (dir == Direction.left)
         {
             bird_.GetComponent<Bird>().Flip();
+            Debug.Log("cs");
         }
         //else if (dir == Direction.both)
         //{

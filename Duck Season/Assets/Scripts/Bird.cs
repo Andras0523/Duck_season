@@ -41,9 +41,9 @@ public class Bird : MonoBehaviour
     }
     IEnumerator Delay()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.01f);
         rb.velocity = new Vector3(0, 0, 0);
-        rb.velocity = new Vector3(forwardSpeed, Random.Range(ySpeedMin, ySpeedMax));
+        rb.velocity = new Vector3(-forwardSpeed, Random.Range(ySpeedMin, ySpeedMax));
         Debug.Log("flip");
 
     }
