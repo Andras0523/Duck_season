@@ -8,11 +8,11 @@ public class CameraController : MonoBehaviour
 
     public float Yaxisb;
     public float Xaxisb;
-    public float Erzekenyseg = 2f;
+    public static float Erzekenyseg = 2f;
 
     private void Start()
     {
-        Cursor.visible = false;
+        Cursor.visible = true;
     }
 
     void Update()

@@ -17593,7 +17593,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Yaxisb: 0
   Xaxisb: 0
-  Erzekenyseg: 2
 --- !u!1001 &964963427
 PrefabInstance:
   m_ObjectHideFlags: 0
