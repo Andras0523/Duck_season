@@ -31,12 +31,12 @@ public class Spawner : MonoBehaviour
         int random = Random.Range(0, spawnPoss.Count);
         GameObject bird_ = Instantiate(bird, this.gameObject.transform);
         bird_.transform.position = spawnPoss[random].position;
-        bird_.transform.rotation = spawnPoss[random].rotation;
+        //bird_.transform.rotation = spawnPoss[random].rotation;
        Direction dir = spawnPoss[random].gameObject.GetComponent<SpawnPos>().spawnDirection;
         if (dir == Direction.left)
         {
             bird_.GetComponent<Bird>().Flip();
-            Debug.Log("cs");
+            
         }
         //else if (dir == Direction.both)
         //{
