@@ -44,7 +44,7 @@ public class Bird : MonoBehaviour
         yield return new WaitForSeconds(0.01f);
         rb.velocity = new Vector3(0, 0, 0);
         rb.velocity = new Vector3(-forwardSpeed, Random.Range(ySpeedMin, ySpeedMax));
-        transform.rotation = Quaternion.Euler(0,180,0);
+        transform.localRotation = Quaternion.Euler(0,-180,0);
         Debug.Log(transform.eulerAngles);
         
 
